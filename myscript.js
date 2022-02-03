@@ -6,3 +6,5 @@ console.log(userSurname)
 
 const favoriteColor = prompt('Qual è il tuo colore preferito?')
 console.log(favoriteColor)
+
+document.getElementById('saluto').innerHTML = 'Ciao ' + userName + ' ' + userSurname + ' anche il mio colore preferito è il ' + favoriteColor;
