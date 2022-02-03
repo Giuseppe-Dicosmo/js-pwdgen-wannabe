@@ -7,4 +7,14 @@ console.log(userSurname)
 const favoriteColor = prompt('Qual è il tuo colore preferito?')
 console.log(favoriteColor)
 
-document.getElementById('saluto').innerHTML = 'Ciao ' + userName + ' ' + userSurname + ' anche il mio colore preferito è il ' + favoriteColor;
+let password = userName + userSurname + favoriteColor + '21';
+console.log(password)
+
+document.getElementById('saluto').innerHTML =
+'Ciao '
++ userName
++ ' ' + userSurname
++ ' anche il mio colore preferito è il '
++ favoriteColor
++ ' ecco la tua password:'
++ password;
